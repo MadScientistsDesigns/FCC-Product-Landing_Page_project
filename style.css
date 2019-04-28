@@ -1,0 +1,119 @@
+/* CSS for  Responsive Web Design Projects - 
+Build a Product Landing Page
+Elizabeth Hildreth
+4/28/2019 */
+
+/* User Story #13: The navbar should always be at the
+top of the viewport  */
+
+/* User Story #15: My product landing page should utilize 
+CSS flexbox at least once */
+
+body {
+    background-image: url("automotive-1866521_1920.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: 210%;
+    background-blend-mode: lighten;
+}
+header {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 95vw;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.8;
+    height: 50px;
+    position: fixed;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+header #header-img {
+    height: 50px;
+    text-align: left;
+    padding-right: 20px;
+}
+header #nav-bar {
+    margin: auto;
+    
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+}
+
+#email {
+    text-align: center;
+    padding: 5px;
+    height: 18px;
+    width: 30%;
+}
+#submit {
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background: green;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+
+
+#video {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    width: 70%;
+    padding-top: 30px;
+
+}
+.blackBorder {
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26%
+}
+
+p {
+    font-size: 20px;
+}
+
+/* User Story #14: My product landing page should have at 
+least one media query */
+@media (max-width: 520px) {
+    header {
+        width: 87vw;
+        font-size: 16px;
+        opacity: 0.8;
+        height: 45px;
+    }
+    #video {
+
+        /* padding-top: 50px; */
+        width: 70vw;
+    }
+}

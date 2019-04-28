@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC Prduct Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <div id="content"><img src="automotive-1866521_1920.jpg" alt=""></div> -->
+<!-- User Story #1: My product landing page should have a header element 
+    with a corresponding id="header" -->
+    <header id="header">
+
+        <!-- User Story #2: I can see an image within the header element with 
+        a corresponding id="header-img". A company logo would make a 
+        good image here -->
+        <div class="blackBorder">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Uber_App_Icon.svg" alt="Uber logo">
+        </div>
+    <!-- User Story #3: Within the #header element I can see a nav element 
+        with a corresponding id="nav-bar" -->
+    <!-- User Story #4: I can see at least three clickable elements inside 
+        the nav element, each with the class nav-link -->
+        <nav id="nav-bar">
+            <a href="#cities" class="nav-link">Cities</a> | 
+            <a href="#drive" class="nav-link">Drive</a> | 
+            <a href="#blog" class="nav-link">Blog</a> | 
+            <a href="#partners" class="nav-link">Partners</a> | 
+            <a href="#help" class="nav-link">Help</a>
+        </nav>
+        <br>
+
+    </header>
+
+    
+    <!-- User Story #5: When I click a .nav-link button in the nav element, 
+        I am taken to the corresponding section of the landing page -->
+
+
+
+
+
+    <!-- User Story #7: My landing page has a form element with a 
+        corresponding id="form" -->
+    <!-- User Story #8: Within the form, there is an input field with 
+        id="email" where I can enter an email address -->
+    <!-- User Story #9: The #email input field should have placeholder 
+        text to let the user know what the field is for -->
+    <!-- User Story #10: The #email input field uses HTML5 validation 
+        to confirm that the entered text is an email address -->
+        <div class="emailForm">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="">Become an Uber driver: 
+                <input type="email" placeholder="enter email" name="email" id="email" required>
+            </label>
+    <!-- User Story #11: Within the form, there is a submit input 
+        with a corresponding id="submit" -->
+    <!-- User Story #12: When I click the #submit element, the email 
+        is submitted to a static page 
+        (use this mock URL: https://www.freecodecamp.com/email-submit) 
+        that confirms the email address was entered and that it posted 
+        successfully -->
+        <!-- <div class="submit"> -->
+                <input id="submit" type="submit" value="Apply"></input>
+            <!-- </div> -->
+        </form>
+        </div>
+
+        <!-- onclick="window.location.href='https://www.freecodecamp.com/email-submit'; -->
+
+            <!-- User Story #6: I can watch an embedded product video with id="video" -->   
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JvEFw2AGLOw" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+            gyroscope; " allowfullscreen align="center"></iframe>
+        
+
+    <div class="information">
+    <div id="cities">
+        <h2>Cities - </h2>
+        <p>Where we operate.</p>        
+    </div>
+    <div id="drive">
+        <h2>Drive - </h2>
+        <p>Come drive for us.</p>
+    </div>
+    <div id="blog">
+        <h2>Blog - </h2>
+        <p>Check out what we have to say.</p>
+    </div>
+    <div id="partners">
+        <h2>Partners - </h2>
+        <p>See who our partners are.</p>
+    </div>
+    <div id="help">
+        <h2>Help - </h2>
+        <p>Whatcha need?</p>
+    </div>
+    </div>
+    
+<h1>Disclaimer: this is not an actual Uber site!!</h1>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+</body>
+</html>
